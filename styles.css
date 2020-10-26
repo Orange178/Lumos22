@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/lato-light/lato-light.cyrillic.woff2') format('woff2'),
+        url('/fonts/lato-light/lato-light.cyrillic.woff') format('woff');
+}
+
+body{
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+
+}
+
+.jumbotron{
+
+	background-image: url(img/1.png);
+-webkit-background-size: 100%;
+background-size: 100%;
+text-align: center;
+color: #E5E5E5;
+}
+
+
+h1{
+font-style: normal;
+font-weight: 800;
+font-size: 52px;
+line-height: 72px;
+text-align: center;
+color: #DDA859;
+}
+
+
+
+p.title_article{
+	font-size: 18px;
+line-height: 22px;
+
+}
+
+
+
+.lead{
+	font-weight: 600;
+font-size: 22px;
+line-height: 29px;
+ 
+}
+.under_text{
+	font-style: italic;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+color: #EDD9D9;
+padding-top: 15px;
+}
+
+h5{
+	padding-bottom: 50px;
+}
+
+input,button{
+	
+width: 262px;
+height: 50px;
+background: #FAF9F9;
+border-radius: 35px;
+text-align: center;
+}
+
+button:hover{
+	background-color: red;
+	color: white;
+}
+
+/*content*/
+
+h2{
+	text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+padding-top: 70px;
+padding-bottom: 30px;
+}
+.color_text{
+color: #DDA859;	
+
+
+}
+
+/*content*/
+
+.container{
+	text-align: center;
+	padding-top: 50px;
+
+}
+.text_content{
+	font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+padding-top: 10px;
+
+}
+
+.t_left{
+	text-align: left;
+}
+
+.t_right{
+	text-align: right;
+
+}
+
+img.content_photo{
+margin-top: 50px;
+width: 348px;
+height: 344px;
+}
+
+img.under_photo{
+margin-bottom: 27px;
+}
+
+img.poligon1{
+	margin-right: 10px;
+}
+img.poligon2{
+	margin-left: 10px;
+}
+
+
+/*end content content2*/
+
+
+/*content 3*/
+
+.content3{
+	height: 376px;
+}
+
+/*end content 3*/
+
+
+
+/*programm*/
+
+.programm{
+width: 752px;
+text-align: center;
+background: #FFFFFF;
+border: 3px solid #DDA859;
+border-radius: 10px;
+padding-left: 0px;
+	padding-right: 0px;
+}
+
+p.prog_text{
+text-align: left;
+padding-left: 100px;
+
+}
+
+.dot{
+	padding-right: 10px;
+}
+
+
+h4{
+	font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+}
+
+p.line{
+	width: 100%;
+	background-image: url(img/Rec17.png);
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	x
+}
+
+/*end programm*/
+
+/*practicum*/
+h2.pract{
+	font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+color: black;
+padding-top: 70px;
+
+}
+
+img.line_dot{
+	position: relative;
+bottom: 24px;
+left: 15px;
+}
+
+img.line_dot2{
+	position: relative;
+right: 180px;
+
+}
+
+button.pactcm{
+	margin-top: 40px;
+}
+/*end practicum*/
+
+/*about autor*/
+.autor{
+	padding-top: 50px;
+
+}
+p.about_autor{
+	font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+padding-bottom: 30px;
+}
+
+p.autor_text{
+text-align: left;
+padding-top: 5px;
+
+}
+
+img.aut{
+	padding-top: 10px;
+}
+/*end autor*/
+
+
+/*result*/
+
+div.result{
+
+	background-color: #F4E4F9;
+	min-height: 400px;
+}
+.result_title{
+	font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+}
+
+button.result{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+/*end result*/
+
+
+div.footer{
+	
+	background-image: url(img/3.jpg);
+	max-height: 220px;
+}
+
+a.footer{
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+a.email{
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #FFFFFF;
+text-decoration-line: underline;
+}
+
+p.info{
+font-size: 14px;
+line-height: 17px;
+color: #BDC8D9;
+
+}
